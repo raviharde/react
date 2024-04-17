@@ -26,7 +26,7 @@ export const Header = () => {
         </div>
         <Navbar.Collapse>
        
-        <Navbar.Link active={path==="/about"}><Link to='/about'>About</Link></Navbar.Link>
+        <Navbar.Link active={path==="/about"} to='/about'>About</Navbar.Link>
       
       </Navbar.Collapse>
     </Navbar> 
